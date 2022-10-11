@@ -7,7 +7,7 @@ Ejemplo de un formulario incrustado en JS, para poder ejecutar el siguiente ejem
 ## Requisitos Previos
 
 * Extraer credenciales del Back Office Vendedor. [Guía Aquí](https://github.com/izipay-pe/obtener-credenciales-de-conexion)
-* Servidor Web o servidor local.
+* Servidor web o servidor local.
 
 ## 1.- Descargar
 Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript/archive/refs/heads/main.zip) o clonarlo desde Git.  
