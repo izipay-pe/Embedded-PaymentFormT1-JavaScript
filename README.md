@@ -10,9 +10,9 @@ Ejemplo de un formulario incrustado en JS, para poder ejecutar el siguiente ejem
 * Servidor Web o servidor local.
 
 ## 1.- Descargar
-Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-Php/archive/refs/heads/main.zip) o clonarlo desde Git.  
+Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript/archive/refs/heads/main.zip) o clonarlo desde Git.  
 ```sh
-git clone https://github.com/izipay-pe/Redirect-PaymentForm-IpnT1-PHP.git
+git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript.git
 ``` 
 
 ## 2.- Subirlo a un servidor web o servidor local
@@ -25,7 +25,7 @@ git clone https://github.com/izipay-pe/Redirect-PaymentForm-IpnT1-PHP.git
 
 ## 3.- Configurar claves
 
-* Obtener claves de integración ver [Requisitos Previos](#Requisitos_Previos).
+* Obtener claves de API REST desde guía de integración ver [Requisitos Previos](#Requisitos_Previos).
 
 * Editar en src/index.html en la sección HEAD:
 
