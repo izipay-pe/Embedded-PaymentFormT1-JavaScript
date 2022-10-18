@@ -20,7 +20,7 @@ git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript.git
 
 * Para ejecutar este proyecto de manera local utilizaremos una extensión de Visual Studio Cod que simulara un servidor web, para instalar esta extensión abrimos Visual Studio Cod y en la parte izquierda nos dirigimos a `Extensiones` y digitamos en el buscador `Live Server` he instalamos la extensión.  
 
-    ![pagar](Image/imagenes-readme/Live-Server.png)
+    ![Server](Image/imagenes-readme/Live-Server.png)
 
 * Descomprimimos el archivo descargado `Redirect-PaymentFormT1-JavaScript-main.zip`, se extraerá la carpeta Redirect-PaymentFormT1-JavaScript-main seleccionamos esta carpeta y la abrimos con Visual Studio Cod.
 
