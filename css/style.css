@@ -1,0 +1,27 @@
+/*div para controlar el formulario*/
+.formulario{    
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    padding: 20px;    
+}
+
+.kr-embedded .kr-payment-button {
+    color: #ffffff !important;
+    background-color: #00A09D !important;
+}
+
+.kr-embedded .kr-payment-button:hover {
+    color: #ffffff !important;
+    background-color: #3DD2CE !important;
+}
+
+#botonPagar{
+    color: #ffffff !important;
+    background-color: #ff4240 !important;    
+}
+
+#botonPagar:hover{
+    color: #ffffff !important;
+    background-color: #ff0000 !important;    
+}

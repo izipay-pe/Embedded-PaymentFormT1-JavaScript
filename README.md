@@ -1,6 +1,8 @@
 # Embedded-PaymentFormT1-JavaScript
 
-Ejemplo de un formulario incrustado en JS, para poder ejecutar el siguiente ejemplo seguir los pasos del presente manual.
+Ejemplo de un formulario incrustado en JavaScript, para poder ejecutar el siguiente ejemplo seguir los pasos del presente manual.
+
+  ![pagar](image/imagenes-readme/formulario-incrustado.png)    
 
 <a name="Requisitos_Previos"></a>
 
@@ -9,23 +11,27 @@ Ejemplo de un formulario incrustado en JS, para poder ejecutar el siguiente ejem
 * Extraer credenciales del Back Office Vendedor. [Guía Aquí](https://github.com/izipay-pe/obtener-credenciales-de-conexion)
 * Servidor Web o servidor local.
 
-## 1.- Descargar
-Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript/archive/refs/heads/main.zip) o clonarlo desde Git.  
+## 1.- Crear el proyecto
+
+* Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript/archive/refs/heads/main.zip) o clonarlo desde Git.  
 ```sh
 git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript.git
 ``` 
 
-## 2.- Subirlo a un servidor web o servidor local
+* Para ejecutar este proyecto de manera local utilizaremos una extensión de Visual Studio Cod que simulara un servidor web, para instalar esta extensión abrimos Visual Studio Cod y en la parte izquierda nos dirigimos a `Extensiones` y digitamos en el buscador `Live Server` he instalamos la extensión.  
 
-* Servidor local:  
-  puede instalar complementos como xampp o WampServer
+    ![pagar](Image/imagenes-readme/Live-Server.png)
 
-* Servidor web:
-  subir el proyecto a su servidor web
+* Descomprimimos el archivo descargado `Redirect-PaymentFormT1-JavaScript-main.zip`, se extraerá la carpeta Redirect-PaymentFormT1-JavaScript-main seleccionamos esta carpeta y la abrimos con Visual Studio Cod.
 
-## 3.- Configurar claves
+* Ingresamos a la siguiente ruta `scr/index.hmtl` y le damos click derecho dentro del código HTML, buscamos `open with Live Server` para ejecutar, se abrirá en nuestro navegador el proyecto con el siguiente dominio y podrá ver el resultado en: 
 
-* Obtener claves de API REST desde guía de integración ver [Requisitos Previos](#Requisitos_Previos).
+  - "http://127.0.0.1:5500/src/index.html"
+
+
+## 2.- Configurar datos de conexión
+
+**Nota**: Reemplace **[CHANGE_ME]** con sus credenciales de `API REST` extraídas desde el Back Office Vendedor, ver [Requisitos Previos](#Requisitos_Previos).
 
 * Editar en src/index.html en la sección HEAD:
 
@@ -47,10 +53,25 @@ git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript.git
 	request.setRequestHeader('Content-Type', 'application/json');
 ```
 
+## 3.- Transacción de prueba
+
+El formulario de pago está listo, puede intentar realizar una transacción utilizando una tarjeta de prueba con la barra de herramientas de depuración (en la parte inferior de la página).
+
+  ![tarjeta](image/imagenes-readme/tarjetas-prueba.png)
+
+Para obtener más información, eche un vistazo a:
+
+- [Formulario incrustado: prueba rápida](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/javascript/quick_start_js.html).
+- [Primeros pasos: pago simple](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/javascript/guide/start.html).
+- [Servicios web - referencia de la API REST](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/reference.html).
+ 
 ## 4.- Implementar IPN
 
-* Ver manual de implementacion de la IPN [Aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/kb/payment_done.html)
-* Ver el ejemplo de la respuesta IPN [Aquí](https://github.com/izipay-pe/Redirect-PaymentForm-IpnT1-PHP)
+* Ver manual de implementacion de la IPN [Aquí](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/kb/payment_done.html).
+
+* Ver el ejemplo de la respuesta IPN con PHP [Aquí](https://github.com/izipay-pe/Redirect-PaymentForm-IpnT1-PHP).
+
+* Ver el ejemplo de la respuesta IPN con NODE.JS [Aquí](https://github.com/izipay-pe/Response-PaymentFormT1-Ipn).
 
 ## 5.- Demo
-* url de ejemplo subido. [Aquí](https://prueba55.herokuapp.com/)
+* Pruebe la demo en la [URL Aquí](https://prueba55.herokuapp.com/).

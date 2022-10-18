@@ -9,8 +9,8 @@
 
     <!-- Biblioteca JavaScript. Debe cargarse en la sección de cabecera. -->
     <script type="text/javascript"
-        src="https://api.micuentaweb.pe/static/js/krypton-client/V4.0/stable/kr-payment-form.min.js" 
-        kr-public-key="~~CHANGE_ME_PUBLIC_KEY~~"
+        src="~~CHANGE_ME_PUBLIC_KEY~~" 
+        kr-public-key="51447378:testpublickey_3SNSOCewrXOZNL2oNYoixUO4q9RaBwClYyCIEofTLGs2g"
         kr-get-url-success="~~CHANGE_ME_PAGE_REDIRECTION~~"       
         kr-language="es-ES"
         >
@@ -34,9 +34,9 @@
         <div class="row g-5">
             <div class="col-md-5 col-lg-4 order-md-last">
                 <div class="d-flex justify-content-center">
-                    <h4>
-                        <span class="text-primary">Formulario Incrustado</span>                  
-                    </h4>
+                   
+                    <img alt="Vue logo" src="../image/logo-izipay.png"/>                 
+                    
                 </div>
                 <hr class="my-4">    
                     <div class="d-flex justify-content-center">
@@ -65,7 +65,7 @@
             
                 <hr class="my-4">
 
-                <button class="w-100 btn btn-primary btn-lg" type="submit">Finalizar con el Pago</button>
+                <button class="w-100 btn btn-danger btn-lg" id="botonPagar" type="submit">Finalizar con el Pago</button>
             </form>
         </div>
         </div>
