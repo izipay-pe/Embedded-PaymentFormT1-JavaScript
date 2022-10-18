@@ -16,9 +16,9 @@ Ejemplo de un formulario incrustado en JavaScript, para poder ejecutar el siguie
 ## 1.- Crear el proyecto
 
 * Descargar el proyecto .zip haciendo click [Aquí](https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript/archive/refs/heads/main.zip) o clonarlo desde Git.  
-```sh
-git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript.git
-``` 
+	```sh
+	git clone https://github.com/izipay-pe/Embedded-PaymentFormT1-JavaScript.git
+	``` 
 
 * Para ejecutar este proyecto de manera local utilizaremos una extensión de Visual Studio Cod que simulara un servidor web, para instalar esta extensión abrimos Visual Studio Cod y en la parte izquierda nos dirigimos a `Extensiones` y digitamos en el buscador `Live Server` he instalamos la extensión.  
 
