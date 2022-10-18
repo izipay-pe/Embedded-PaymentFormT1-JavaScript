@@ -2,7 +2,7 @@
 
 Ejemplo de un formulario incrustado en JavaScript, para poder ejecutar el siguiente ejemplo seguir los pasos del presente manual.
 
-<p align="center" style="border-radius: 5px;">
+<p align="center" style="border-radius: 10px">
   <img src="/image/imagenes-readme/formulario-incrustado.png?raw=true" alt="Formulario"/>
 </p>    
 
