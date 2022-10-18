@@ -6,12 +6,6 @@ Ejemplo de un formulario incrustado en JavaScript, para poder ejecutar el siguie
   <img src="/image/imagenes-readme/formulario-incrustado.png?raw=true" alt="Formulario"/>
 </p>    
 
-```css
-img {  
-border-radius: 10px;
-}
-```
-
 <a name="Requisitos_Previos"></a>
 
 ## Requisitos Previos
