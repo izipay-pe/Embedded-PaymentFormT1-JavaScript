@@ -9,7 +9,7 @@ Ejemplo de un formulario incrustado en JavaScript, para poder ejecutar el siguie
 ## Requisitos Previos
 
 * Extraer credenciales del Back Office Vendedor. [Guía Aquí](https://github.com/izipay-pe/obtener-credenciales-de-conexion)
-* Servidor Web o servidor local.
+* Servidor web o servidor local.
 
 ## 1.- Crear el proyecto
 
