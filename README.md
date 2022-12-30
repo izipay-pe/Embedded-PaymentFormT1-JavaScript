@@ -48,7 +48,7 @@ Ejemplo de un formulario incrustado en JavaScript, para poder ejecutar el siguie
 </script>
 ``` 
 
-* Editar el endpoint el cual retornara el formtoken en src/app.js:
+* Crear y editar el endpoint el cual retornara el formtoken [Manual Aquí](https://github.com/izipay-pe/Response-FormToken), se cambiara `YOUR_SERVER/payment/init`por la nueva url creada, ruta donde se tiene que realizar el cambio: src/app.js.
 
 ```javascript 
 	request.open('POST', 'YOUR_SERVER/payment/init', true);
